@@ -1,0 +1,86 @@
+//main: ../style.less
+
+.navbar-default .navbar-toggle {
+    border-color: @color-none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: @color-none;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: @color-none;
+}
+
+.nav,.navbar,.navbar-default,.navbar-collapse{
+	max-width: 744px;
+	padding: 0;
+	margin: 0;
+	border-color: @color-none;
+}
+
+.navbar{
+	position: absolute;
+	z-index: 100;
+	top: 53px;
+	right: 10%;
+	background: @color-first;
+	border-radius: 10px;
+}
+
+.nav>li>a{
+    padding: 10px 10px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: @color-black;
+}
+
+.nav ul:nth-child(2){
+	min-width: 239px;
+	opacity: 0.8;
+	box-shadow: -1px 4px 15px 1px rgba(0, 0, 0, 0.34);
+	background: #3397e2;
+}
+
+.dropdown-menu li>a{
+	color: @color-white;
+	margin: 5px 25px;
+}
+
+.nav li{
+	padding-top: 5px
+}
+
+.nav a{
+  	color: @color-black;
+    font-family: "ArialBold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+	border-radius: 10px;
+}
+
+.navbar-toggle{
+	position: relative;
+	left: 7px;
+}
+
+.shevron{
+	width: 12px;
+	height: 12px;
+	border-bottom: 2px solid @color-black;
+	border-right: 2px solid @color-black;
+	z-index: 15;
+	position: absolute;
+	top: 16px;
+	right: -6px;
+	transform: rotateZ(45deg);
+	margin: -3px -3px;	
+	
+}
+
+.navbar-collapse.in {
+    overflow-y: visible;
+}
+ 

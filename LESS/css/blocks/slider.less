@@ -1,0 +1,57 @@
+//main: ../style.less
+
+.slaider{
+	overflow: hidden;
+}
+
+.item img{
+	width: 100%;
+}
+
+.carousel-caption{
+	position: absolute;
+	bottom: 35%;
+	left: 0%;
+}
+
+.carousel-caption h2{
+	position: absolute;
+	bottom: 250%;
+	left: 15%;
+	z-index: 10;
+}
+
+.fon_slider{
+	width: 1352px;
+	height: 228px;
+	background-color: #004c84;
+	opacity: 0.49;
+	position: absolute;
+	bottom: 5%;
+	z-index: 5;
+}
+
+.carousel-caption input[type=button]{
+	.btn(@color-first);
+   	position: absolute;
+	z-index: 10;
+}
+
+.carousel-indicators{
+	position: absolute;
+	bottom: 5%;
+	left: 15%;
+}
+
+.carousel-indicators li{
+	background: @color-white;
+	
+}
+
+.carousel-indicators li.active{
+	background: @color-first;
+}
+
+a.left.carousel-control,a.right.carousel-control{
+	margin: 0;
+}
